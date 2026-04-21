@@ -1,12 +1,23 @@
-﻿.next/
+﻿# logs
+*.log
+*.out
+*.err
+
+# next
+.next/
 node_modules/
+
+# python
 __pycache__/
-.pytest_cache/
-.venv/
 *.pyc
-*.pyo
-*.db
+.venv/
+venv/
+
+# env
 .env
 .env.local
-backend/generated/*
-!backend/generated/.gitkeep
+
+# database / build
+*.db
+*.sqlite3
+*.zip
